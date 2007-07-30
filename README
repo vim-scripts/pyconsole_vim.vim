@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1974
+
+This plugin allows for the execution of windows based command line commands such as "dir", "findstr" or "ping" directly within a vim buffer.
+
+Start up an embedded console from within vim by:
+        :call PyConsole()
+    or the windows command line by:
+        gvim "+call PyConsole()"
+
+See http://pyconsole.googlecode.com/ for a flash demo.
+
+Requirements:
+- Vim 7.0 or above: http://www.vim.org/download.php#pc
+- Python 2.4 or above: http://www.python.org/download/windows/
+- Python for Windows extensions: http://sourceforge.net/projects/pywin32/
+- Python ctypes module (not necessary for Python 2.5 and above): http://sourceforge.net/projects/ctypes/
+
+Based on the Python PyConsole project.
+
